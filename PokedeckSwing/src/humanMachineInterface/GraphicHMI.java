@@ -70,7 +70,7 @@ public  class GraphicHMI {
 	 */
 	public  void addMenuButtonInterface(){
 		gridBagConstraintsXY(0, 0);
-		JButton button_add = new JButton (" Add a Card ");
+		JButton button_add = new JButton (" Add a PokemonCard ");
 		button_add.addActionListener ( new WindowsAddCardListener(pokedeck, pokedeck.collectionList(), labels_cards));
 		flow_panel.add(button_add ,grid);
 		gridBagConstraintsXY(0, 1);

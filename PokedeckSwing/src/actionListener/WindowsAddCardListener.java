@@ -68,7 +68,7 @@ public class WindowsAddCardListener implements ActionListener {
 		panel_AddCard.add (desc_lb);
 		panel_AddCard.add (desc_tf);
 
-		JButton valid_btn = new JButton ("Add this Card");
+		JButton valid_btn = new JButton ("Add this PokemonCard");
 		valid_btn.addActionListener(new AddCardListener(pokedeck, labels_cards, name_tf, collector_num_tf, desc_tf));	
 		panel_AddCard.add(valid_btn);
 		panel_AddCard.repaint();
